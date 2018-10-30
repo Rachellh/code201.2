@@ -1,47 +1,46 @@
-// var userName = prompt("What's your name?");  // Double quotes
-// var userName = prompt('Whats your name?');  // Bad grammar
-var userName = prompt('What\'s your name?');  // Escape character
 
-// if (some condition evaluates to Truthy) {
-//  Do Something
-// } else {
-//  Do something else
-//  }
-
-if (userName.length >= 3) {
-  alert('Welcome to the site, ' + userName + '.');
+var userName = prompt('What\'s your name?');
+if (userName.length >= 5) {
+  alert('Welcome ' + userName + '.');
 } else {
   alert('Your name is short. Thanks, ' + userName + '.');
 }
 
-var userAge = prompt('How old are you?');
-console.log(typeof (userAge));
+
+var userAge = prompt('What\'s my age?');
+if (userAge = 30) {
+  alert('Correct,' + userName + '.');
+} else {
+  alert('Wrong,' + userName + '.');
+}
+
+
+var responseOne = prompt('Do I like fishing?')
+if (responseOne === 'Y' || responseOne === 'y' || responseOne === 'YES' || responseOne === // 'yes') {
+    alert('Congrats. You know me pretty well.');
+} else {
+    alert('Sorry, you were wrong.');
+}
 
 alert('Please respond to the following questions with Y/y/yes/YES or no...');
-// var responseOne = prompt('Was I born in WA state?');
-// var upperResponseOne = responseOne.toUpperCase();
+var responseTwo = prompt('Do I love to dance?');
+var upperResponseTwo = responseTwo.toUpperCase();
 
-// if (responseOne === 'Y') {
-//   alert('Congrats. You know me pretty well.');
-// } else if (responseOne === 'y') {
-//   alert('Congrats. You know me pretty well.');
-// } else if (responseOne === 'YES') {
-//   alert('Congrats. You know me pretty well.');
-// } else if (responseOne === 'yes') {
-//   alert('Congrats. You know me pretty well.');
-// } else {
-//   alert('Sorry, you were wrong.');
-// }
+if (responseOne === 'Y') {
+       alert('Congrats. You know me pretty well.');
+ } else if (responseOne === 'y') {
+   alert('Congrats. You know me pretty well.');
+ } else if (responseOne === 'YES') {
+   alert('Congrats. You know me pretty well.');
+ } else if (responseOne === 'yes') {
+   alert('Congrats. You know me pretty well.');
+ } else {
+   alert('Sorry, you were wrong.');
+ }
 
-// if (responseOne === 'Y' || responseOne === 'y' || responseOne === 'YES' || responseOne === // 'yes') {
-//   alert('Congrats. You know me pretty well.');
-// } else {
-//   alert('Sorry, you were wrong.');
-// }
 
-var responseOne = prompt('Was I born in WA state?').toUpperCase();
-
-if (responseOne === 'Y' || responseOne === 'YES') {
+var responseThree = prompt('Was I born in WA state?').toUpperCase();
+if (responseThree === 'N' || responseThree === 'NO') {
   alert('Congrats. You know me pretty well.');
 } else {
   alert('Sorry, you were wrong.');
