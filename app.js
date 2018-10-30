@@ -22,23 +22,23 @@ if (responseOne === 'Y' || responseOne === 'y' || responseOne === 'YES' || respo
     alert('Sorry, you were wrong.');
 }
 
+
 alert('Please respond to the following questions with Y/y/yes/YES or no...');
 var responseTwo = prompt('Do I love to dance?');
 var upperResponseTwo = responseTwo.toUpperCase();
-
-if (responseOne === 'Y') {
+if (responseTwo === 'Y') {
        alert('Congrats. You know me pretty well.');
- } else if (responseOne === 'y') {
+ } else if (responseTwo === 'y') {
    alert('Congrats. You know me pretty well.');
- } else if (responseOne === 'YES') {
+ } else if (responseTwo === 'YES') {
    alert('Congrats. You know me pretty well.');
- } else if (responseOne === 'yes') {
+ } else if (responseTwo === 'yes') {
    alert('Congrats. You know me pretty well.');
  } else {
    alert('Sorry, you were wrong.');
  }
 
-
+S
 var responseThree = prompt('Was I born in WA state?').toUpperCase();
 if (responseThree === 'N' || responseThree === 'NO') {
   alert('Congrats. You know me pretty well.');
