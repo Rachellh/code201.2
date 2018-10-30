@@ -1,9 +1,10 @@
+'use strict';
 
 var userName = prompt('What\'s your name?');
 if (userName.length >= 5) {
   alert('Welcome ' + userName + '.');
 } else {
-  alert('Your name is short. Thanks, ' + userName + '.');
+  alert('Welcome to my guessing game ' + userName + '.');
 }
 
 
@@ -16,7 +17,7 @@ if (userAge = 30) {
 
 
 var responseOne = prompt('Do I like fishing?')
-if (responseOne === 'Y' || responseOne === 'y' || responseOne === 'YES' || responseOne === // 'yes') {
+if (responseOne === 'Y' || responseOne === 'y' || responseOne === 'YES' || responseOne === 'yes') {
     alert('Congrats. You know me pretty well.');
 } else {
     alert('Sorry, you were wrong.');
@@ -38,7 +39,7 @@ if (responseTwo === 'Y') {
    alert('Sorry, you were wrong.');
  }
 
-S
+
 var responseThree = prompt('Was I born in WA state?').toUpperCase();
 if (responseThree === 'N' || responseThree === 'NO') {
   alert('Congrats. You know me pretty well.');
